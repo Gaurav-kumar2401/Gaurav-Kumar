@@ -1,0 +1,12 @@
+{
+  "username": "trainingprojectbms@gmail.com",
+  "accessToken": "f213d7ca20ff2688a49d90258b8bb0f7b5f25540a372c1b7c1ba5b001527dc45f7bca3ef9d5bb32da4ca730b70d4458e9763c0d1f450e6f66f5c324dc7b5bbdd7412840df58ad7816009f9a06e0f6d4b170ab9046027ca908c6cb097f90de9bf44a49dcda5b787223f74964f441e8d8eff2a876909f0:c5ba6200f0a160f064ee7b682d2f2eba",
+  "instanceUrl": "https://tmc-c0-dev-ed.develop.my.salesforce.com",
+  "orgId": "00D5g00000JS3VqEAL",
+  "loginUrl": "https://login.salesforce.com",
+  "refreshToken": "346e9ede84116bbfb7edb893de6406348af0bcb637dd1ce7ae07c9791da20b6dfbb3bee86871e1cc2c4990877cd8dd0cb2a765cf3a30daf7e51f6f0fcc9025a9ce6c2cc99e35b340ee7c669c70308ba8676111a51f4b112a898c1babac:7f8dae06c0bc78c2d2b873eb978d35a0",
+  "clientId": "PlatformCLI",
+  "isDevHub": false,
+  "instanceApiVersion": "56.0",
+  "instanceApiVersionLastRetrieved": "12/11/2022, 12:27:47 pm"
+}

@@ -1,0 +1,12 @@
+{
+  "username": "gauravsisodiya@techmatrixconsulting.com",
+  "accessToken": "40ab1045c6a51bc8db23c2a1804a7ecc0c3f902f2030e2d1aef3cfbcffc4a38ee3bfc5be6c33e41daa8e505f0fe8e8947afed82ac769d547e507efc1d35c8234a21dffe3aed75155814bad3cdaf368b37abd7f559b22bc8b708320cda57e43ea906354cd93184c14fdb5b8e10cda5005a1864092986e:de73bc7f0423dbe3da10769c6c64ec7d",
+  "instanceUrl": "https://techmatrixconsulting36-dev-ed.my.salesforce.com",
+  "orgId": "00D5i000000KRSREA4",
+  "loginUrl": "https://login.salesforce.com/",
+  "refreshToken": "fad615a3e3e3680b1f6d9e1ff53afb8319ddc95238be6041f6263a7179cee00162488be7b6ee2dfde47b1ccc0594597396be20e60bf331b0ccdd4ea6a5ad288e6ee5902be6d1014426a31ae24100f74efcc9f086cb668b85aa0c760e4e:fba3acf5536070cb51a358750ab0b7be",
+  "clientId": "PlatformCLI",
+  "isDevHub": true,
+  "instanceApiVersion": "56.0",
+  "instanceApiVersionLastRetrieved": "1/12/2022, 2:55:11 pm"
+}

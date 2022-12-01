@@ -1,0 +1,1 @@
+{"name":"sfdx","hostname":"Gaurav-K-TMC","pid":17288,"level":60,"errno":-4058,"code":"ENOENT","syscall":"rename","path":"C:\\Users\\Gaurav Kumar\\.sfdx\\sfdx.log.0","dest":"C:\\Users\\Gaurav Kumar\\.sfdx\\sfdx.log.1","msg":"","time":"2022-11-03T03:45:52.929Z","v":0}
