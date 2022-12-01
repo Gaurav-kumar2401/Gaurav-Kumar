@@ -1,0 +1,31 @@
+<template>
+    <lightning-carousel>
+        <template for:each={players} for:item="player">
+            <lightning-carousel-image
+            key ={player.id}
+            src={player.src}
+            href={player.href}>
+
+            </lightning-carousel-image>
+        </template>
+    </lightning-carousel>
+    <!-- <lightning-carousel disable-auto-scroll>
+        <lightning-carousel-image
+        src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_640,q_50/lsci/db/PICTURES/CMS/319900/319946.png"
+        header="Clement"
+        alternative-text="Image"
+        description="Simple Image"
+        href="https://en.wikipedia.org/wiki/MS_Dhoni">
+
+        </lightning-carousel-image>
+        <lightning-carousel-image
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Virat_Kohli.jpg/330px-Virat_Kohli.jpg"
+        header="Clement"
+        alternative-text="Image"
+        description="Simple Image"
+        href="https://en.wikipedia.org/wiki/Virat_Kohli">
+
+        </lightning-carousel-image>
+        
+    </lightning-carousel> -->
+</template>

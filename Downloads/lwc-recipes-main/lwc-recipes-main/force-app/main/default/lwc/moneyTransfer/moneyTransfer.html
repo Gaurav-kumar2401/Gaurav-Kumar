@@ -1,0 +1,17 @@
+<template>
+    <lightning-card title="Money Transfer">
+        <div class="slds-p-around_medium lgc-bg">
+            <b>From</b>
+            <lightning-input label="Account Number" type="text" name="accountNumber" placeholder="Enter Account Number" onchange={firstInput}></lightning-input>
+            <b>To</b>
+            <lightning-input label="Account Number" type="text" name="accountNumber" placeholder="Enter Account Number" onchange={secondInput}></lightning-input>
+            <b>Amount</b>
+            <lightning-input label="Amount" type="number" name="Amount" placeholder="Enter Amount" onchange={thirdInput}></lightning-input>
+        </div>
+        <lightning-button label="Transfer" variant="brand" onclick={transferMoney}></lightning-button>
+    </lightning-card>
+        <template if:true={visible}>
+            <lightning-datatable key-field="Id" data={data} columns={columns}></lightning-datatable>
+        </template>
+    
+</template>

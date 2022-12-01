@@ -1,0 +1,20 @@
+<template>
+    <lightning-card title="Dependent Picklist">
+        <lightning-combobox 
+                        name="countryVal"
+                        label="Select Country" 
+                        placeholder="Select Country" 
+                        value={countryVal}
+                        options={controllingPicklist}
+                        onchange={fetchDependentValue}>
+        </lightning-combobox>
+        <lightning-combobox 
+                        name="stateVal" 
+                        label="State" 
+                        placeholder="Select State" 
+                        options={staOptions}
+                        onchange={handelState}
+                        value={stateVal}>
+        </lightning-combobox>
+    </lightning-card>
+</template>

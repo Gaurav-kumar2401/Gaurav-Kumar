@@ -1,0 +1,21 @@
+<template>
+    <lightning-card title="Deposit Money">
+        <div class="slds-p-around_medium lgc-bg">
+            <lightning-input label="Account Number" type="text" name="accountNumber" onchange={firstInput}></lightning-input>
+            <lightning-input label="Amount" type="number" name="Amount" onchange={secondInput}></lightning-input>
+        </div>
+        <lightning-button label="Deposit" variant="brand" onclick={depositMoney}></lightning-button>
+    </lightning-card>
+    <template if:true={visible}>
+        <lightning-datatable key-field="Id" data={data} columns={columns}></lightning-datatable>
+    </template>
+    <lightning-card>
+         <template if:true={error}>
+            {error}
+        </template>
+        <template if:false={error}>
+           
+        </template>
+    </lightning-card>
+
+</template>

@@ -1,0 +1,18 @@
+<template>
+    <lightning-card title="Withdraw Amount">
+        <div class="slds-p-around_medium lgc-bg">
+            <lightning-input label="Account Number" type="text" name="accountNumber" onchange={firstInput}></lightning-input>
+            <lightning-input label="Amount" type="number" name="Amount" onchange={secondInput}></lightning-input>
+        </div>
+        <lightning-button label="Withdraw" variant="brand" onclick={withdrawMoney}></lightning-button>
+    </lightning-card>
+    <template if:true={visible}>
+        <lightning-datatable key-field="Id" data={data} columns={columns} onrowaction={handleRowActions}></lightning-datatable>
+    </template>
+    <template if:true={checkError}>
+<div>
+    <b>Error :{error}</b>
+</div>
+    </template>
+    
+</template>

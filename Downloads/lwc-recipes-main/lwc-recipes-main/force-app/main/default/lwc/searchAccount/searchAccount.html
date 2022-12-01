@@ -1,0 +1,15 @@
+<template>
+    <lightning-card title="Search Account" style="align-items: center;">
+        <div class="slds-m-around_medium ">
+            <lightning-input type="search" label="Search" value={input} onchange={handleSearch}></lightning-input> <br>
+            <!-- <lightning-button label="Search" variant="brand" onclick={handleSearch}></lightning-button> -->
+            <template if:true={bankAccountList}>
+                <b>Your Account Detail</b>
+                <lightning-datatable data={bankAccountList} columns={columns} key-field="id">
+
+                </lightning-datatable>
+
+            </template>
+        </div>
+    </lightning-card>
+</template>

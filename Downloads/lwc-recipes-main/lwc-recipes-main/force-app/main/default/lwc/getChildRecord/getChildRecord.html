@@ -1,0 +1,26 @@
+<template>
+    <lightning-card>
+        <lightning-button
+                        label={showData}
+                        variant="brand"
+                        onclick={handleEvent}></lightning-button>
+
+    </lightning-card>
+    <lightning-card>
+        <template if:true={showDataTable}>
+           <lightning-datatable 
+                                key-field="Id"
+                                data={oppData} 
+                                columns={columns}
+                                hide-checkbox-column>
+        </lightning-datatable>
+
+        <lightning-datatable 
+                                key-field="Id"
+                                data={conData} 
+                                columns={columns1}
+                                hide-checkbox-column>
+        </lightning-datatable>
+        </template>
+    </lightning-card>
+</template>

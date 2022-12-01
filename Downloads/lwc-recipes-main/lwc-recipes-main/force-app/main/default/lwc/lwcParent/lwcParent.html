@@ -1,0 +1,10 @@
+<template>
+    <lightning-card title="Parent To Child Component">
+        <lightning-input label="Enter Number"
+                         value={startNumber} 
+                         type="number"
+                         onchange={changeHandler}></lightning-input>
+    </lightning-card>
+    <lightning-button label="Add 100" onclick={callChildMEthod}></lightning-button>
+    <c-lwc-child number-count={startNumber}></c-lwc-child>
+</template>

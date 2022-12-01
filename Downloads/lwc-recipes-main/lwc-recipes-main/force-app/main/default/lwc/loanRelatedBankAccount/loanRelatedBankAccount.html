@@ -1,0 +1,21 @@
+<template>
+    <lightning-card title="Show Loan Particular Bank Account">
+
+        <div class="slds-m-around_medium">
+            <select class="slds-select" onchange={allLoanFetch}>
+                <option>Select Bank Account</option>
+                <template for:each={acc} for:item="item">
+                    <option key={item.Id} value={item.Id}>{item.Name}</option>
+                </template>
+            </select>
+        </div>
+        <div class="slds-m-around_medium">
+
+            <template if:true={loan}>
+                <b>All Loan Related Bank Account</b>
+                <lightning-datatable data={loan} columns={columns} key-field="Id">
+                </lightning-datatable>
+            </template>
+        </div>
+    </lightning-card>
+</template>

@@ -1,0 +1,38 @@
+<template>
+    <lightning-card title="Choose Branch Name" icon-name="standard:Branch__c">
+
+        <table>
+            <tbody>
+
+                <tr>
+                    <td>
+
+                        <div class="slds-m-around_medium">
+                            <select class="slds-select" onchange={allAccountFetch}>
+                                <option>Select Branch</option>
+                                <template for:each={acc} for:item="item">
+                                    <option key={item.Id} value={item.Id}>{item.Name}</option>
+                                </template>
+                            </select>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="slds-m-around_medium">
+                            
+                            <template if:true={con}>
+                                <b>All Bank Account Related Bank</b>
+                                <lightning-datatable data={con} columns={columns} onrowselection={handleRowSelected}
+                                    selected-rows={selection} oncellchange={handleCellChange} key-field="Id" max-row-selection="1">
+                                </lightning-datatable>
+                            </template>
+                            <!--</select>-->
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </lightning-card>
+</template>

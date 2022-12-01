@@ -1,0 +1,12 @@
+<template>
+    <lightning-card>
+          <div class="slds-m-around_medium" style="text-decoration-color: blue;">
+                <lightning-input label="Email" name="email" value={email} onchange={handleEmailChange}>
+                </lightning-input>
+                <lightning-input label="Subject" name="subject" value={subject} onchange={handleSubjectChange}>
+                </lightning-input>
+                <lightning-input label="Body" name="body" value={body}  onchange={handleBodyChange}></lightning-input> 
+                <lightning-button label="Send" variant="brand" onclick={handleClick}></lightning-button>
+          </div>
+    </lightning-card>
+</template>
